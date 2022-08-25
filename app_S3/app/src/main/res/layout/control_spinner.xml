@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio4 - Semana3"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/v1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:hint="Ingrese el primer valor"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/v2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:hint="Ingrese el segundo valor"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOperarSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="operar"
+        android:onClick="operarSpinner"
+        />
+
+    <TextView
+        android:id="@+id/muestraR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

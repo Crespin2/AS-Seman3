@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 2 - Semana 3"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tvn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese primer valor"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/etn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0.0"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        />
+    <TextView
+        android:id="@+id/tvn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese Segundo valor"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/etn2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="0.0"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sumar"
+            />
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retar"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/operar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="operar"
+        android:onClick="operar"
+        />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

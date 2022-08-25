@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 7 - Semana 3"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/tvnoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuál fue el número que vío?"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:id="@+id/etnoti"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/btnNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Controlar"
+        android:onClick="controlar"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

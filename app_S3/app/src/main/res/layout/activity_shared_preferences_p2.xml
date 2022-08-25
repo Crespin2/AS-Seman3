@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context=".SharedPreferences_P2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ejercicio 10 - Problema 2"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+    <EditText
+        android:id="@+id/etPersona"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la persona"
+        android:textAlignment="center"
+
+        />
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/etDatos"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Dato"
+            android:textAlignment="center"
+
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnGrabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grabar"
+            android:layout_marginRight="10dp"
+            android:onClick="grabar"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnRecuperar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recuperar"
+            android:onClick="recupera"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

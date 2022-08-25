@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operaciones Aritmeticas"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/i2"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca un dato"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/flecha1"
+        android:inputType="numberDecimal"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca un dato"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/flecha1"
+        android:inputType="numberDecimal"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESTA" />
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUMA" />
+
+        <Button
+            android:id="@+id/btnMulti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLICACION" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIVISION" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/tvres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0.0"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

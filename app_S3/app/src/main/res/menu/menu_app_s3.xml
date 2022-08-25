@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ejercicio1"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/ejercicio2"
+        android:title="Ejercicio-2" />
+    <item
+        android:id="@+id/ejercicio3"
+        android:title="Ejercicio-3" />
+    <item
+        android:id="@+id/ejercicio4"
+        android:title="Ejercicio-4" />
+    <item
+        android:id="@+id/ejercicio5"
+        android:title="Ejercicio-5" />
+    <item
+        android:id="@+id/ejercicio6"
+        android:title="Ejercicio-6" />
+    <item
+        android:id="@+id/ejercicio7"
+        android:title="Ejercicio-7" />
+    <item
+        android:id="@+id/ejercicio8"
+        android:title="Ejercicio-8" />
+    <item
+        android:id="@+id/ejercicio9"
+        android:title="Ejercicio-9" />
+    <item
+        android:id="@+id/ejercicio10"
+        android:title="Ejercicio-10" />
+    <item
+        android:id="@+id/ejercicio11_1"
+        android:title="Ejercicio-11-E1" />
+    <item
+        android:id="@+id/ejercicio11_2"
+        android:title="Ejercicio-10-E2" />
+</menu>
